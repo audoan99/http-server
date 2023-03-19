@@ -15,7 +15,7 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
-#define BACKLOG 10	 /* How many pending connections queue will hold */ 
+#define BACKLOG                 10	 //How many pending connections queue will hold
 
 class SocketTcp
 {
@@ -39,7 +39,7 @@ public:
      */
     int get_listener_socket(char *port);
 private:
-    /* data */
+
 };
 
 #endif /* __SOCKET_TCP_HPP__ */

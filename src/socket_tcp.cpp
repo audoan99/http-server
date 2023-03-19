@@ -15,10 +15,9 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-
 #include "socket_tcp.hpp"
 
-void* SocketTcp::get_in_addr(struct sockaddr *sa)
+void *SocketTcp::get_in_addr(struct sockaddr *sa)
 {
     if(sa->sa_family == AF_INET)
     {
